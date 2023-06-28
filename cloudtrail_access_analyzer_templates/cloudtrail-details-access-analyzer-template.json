@@ -1,0 +1,13 @@
+{
+  "accessRole": "ACCESS_ROLE_ARN",
+  "startTime": "START_TIME",
+  "trails": [
+    {
+      "allRegions": false,
+      "cloudTrailArn": "TRAIL_ARN",
+      "regions": [
+        "AWS_REGION"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+*.DS_Store
+*.vagrant
+.idea
+
+# IAM permissions scripts generated files/directories
+./script_generated_files/
