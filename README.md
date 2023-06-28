@@ -131,3 +131,4 @@ This is due to how some of the AWS services used in this process work when using
 ### Further improvements
 - Add check for existing AWS profile in AWS config and credentials file to avoid duplication of profiles
 - Use flags instead of positional command line arguments to make script usage/execution simpler
+- Add KMS encryption to S3 bucket
