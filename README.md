@@ -114,7 +114,7 @@ This is due to how some of the AWS services used in this process work when using
         }
         ```
     - At this point, you should review the document and add the relevant ARNs for the resources that are used in your AWS deployment
-      - Once the policy document has been reviewed, you can generate an IAM Policy with the IAM Policy document and attach it to your IAM User by following Step 2 of [Creating an IAM User and attaching an existing IAM policy to the user](#creating-an-iam-user-and-attaching-an-existing-iam-policy-to-the-user) and passing the policy document to the `setup_terraform_iam_user.sh` script
+      - Once the policy document has been reviewed, you can generate an IAM Policy with the IAM Policy document and attach it to your IAM User by following the steps in the section: [Programmatically via the CLI](#programmatically-via-the-cli) and passing the policy document to the `setup_terraform_iam_user.sh` script
     - **Note: All AWS resources created in this process are cleaned up/ deleted upon successful completion of the script**
 
 ### Technical documentation
